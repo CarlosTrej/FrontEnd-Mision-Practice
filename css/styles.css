@@ -1,0 +1,160 @@
+body{
+    background: #ddd6f3;  
+    background: -webkit-linear-gradient(to right, #faaca8, #ddd6f3);  
+    background: linear-gradient(to right, #faaca8, #ddd6f3); 
+    font-family: 'Palanquin Dark', sans-serif;
+}
+#logo{
+    border-radius: 15%;
+    position: relative;
+    right: 2%;
+}
+h1{
+    color: #422624;
+}
+#navBar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background: #4568DC;  
+    background: -webkit-linear-gradient(to right, #B06AB3, #4568DC);  
+    background: linear-gradient(to right, #B06AB3, #4568DC); 
+}
+#navBar a{
+    padding: 1.5em 0 1.5em 9em;
+    text-align: right;
+    font-size: xx-large;
+    font-weight: 500;
+    text-decoration: none;
+    color: rgb(235, 232, 232);
+}
+h1, h2, .container4{
+    text-align: center;
+}
+h1, nav{
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 8em;
+}
+#img1{
+    padding: 4em 0 4em 0;
+    border-radius: 22% ;
+    height: 977px;
+    width: 900px;
+}
+.container2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border: 2px outset;
+    margin: 4em 7em 7em 7em;
+    padding: 10em 0 60em 0 ;
+    border-radius: 3%;
+    background: #4568DC;  
+    background: -webkit-linear-gradient(to right, #B06AB3, #4568DC);  
+    background: linear-gradient(to right, #B06AB3, #4568DC); 
+}
+.container2 section{
+    border: 3px outset;
+    background: #77A1D3;
+    font-size: x-large;
+    text-align: center;
+    padding:  2em 2em 0 2em;
+    border-radius: 4%;
+}
+.container2 img{
+    height: 520px;
+    width: 380px;
+    border-radius: 5%;
+}
+.container3 a input{
+   padding: 0.5em 8em; 
+   border-radius: 44%;
+   font-size:xx-large;
+   background-color: #AA076B;
+   color: rgb(230, 230, 230);
+   margin: 0 0 2em 0;
+}
+.card1,.card2{
+    justify-content: space-around;
+    position: relative;
+    left: 33em;
+   margin: 0 6em 0 6em;
+}
+.card3,.card4{
+    position: relative;
+    top: 35em;
+    right: 31em;
+    justify-content: space-around;
+    margin: 0 6em 0 6em;
+}
+.container1 h2{
+    font-size: xx-large;
+    text-justify: auto;
+}
+.container4 h3{
+    background: #ff00cc; 
+    background: -webkit-linear-gradient(to right, #333399, #ff00cc); 
+    background: linear-gradient(to right, #333399, #ff00cc);
+    padding: 2em 0 2em 0;
+    color: rgb(240, 239, 239);
+    font-size: xx-large;
+}
+#menuReposteria{
+    display: flex;
+    justify-content: center;
+    font-size: xx-large;
+   border: 2px outset;
+   margin: 0 2em 0 2em;
+   padding: 2em 0 2em 0;
+   border-radius: 3%;
+    background-image: url("/img/backgroundCake.png");
+    font-weight: 600;
+    font-family: 'Fredericka the Great', cursive;
+}
+#menuReposteria ul{
+    margin: 2em 4em 0 2.5em;
+    list-style: none;
+}
+#menuReposteria li{
+   padding-bottom: 1em;
+}
+.container5 h2{
+    font-size: xxx-large;
+}
+#pedido{
+    margin:2em 2em 2em 22em;
+    font-size: xx-large;
+    border-radius: 2%;
+    padding: 0.5em 1em 0.5em 1em;
+    background-color: #AA076B;
+    color: rgb(230, 230, 230);
+}
+#pedidoForm{
+    border: 2px outset;
+    margin: 3em 10em 3em 10em;
+    border-radius: 2%;
+    padding: 2em 8em 4em 8em;
+    background: #20002c; 
+    background: -webkit-linear-gradient(to right, #cbb4d4, #20002c);  
+    background: linear-gradient(to right, #cbb4d4, #20002c); 
+    font-size: x-large;
+}
+.restart, .submit{  
+   padding: 1em 2em;
+   border-radius: 9%;
+   font-size: large;
+   background-color: #B06AB3;
+   color: rgb(255, 251, 251);
+   font-weight: 600;
+   margin: 0 4em;
+}
+.txt{
+    width: 35em;
+    font-size: medium;
+    margin: 1em;
+}
+.checkBox input{
+    width:20px;
+    height:20px;
+}

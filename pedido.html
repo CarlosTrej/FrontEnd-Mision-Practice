@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Pedido</title>
+</head>
+<body>
+    <nav id="navBar">
+        <img src="./img/More Sugar.png" alt="logo Red Sugar"  id="logo" height="180px">
+        <a href="./index.html"><h3>Inicio</h3></a>
+        <a href="./menu.html"><h3>Menú</h3></a>
+        <a href="./pedido.html"><h3>Pedido</h3></a>
+    </nav>
+    <div class="formulario">
+        <h2>Aqui realiza tu pedido</h2>
+        <form action="" id="pedidoForm">
+            <label for="nombre">Nombre</label><br>
+            <input class="txt" type="text" name="nombre" id="nombre" placeholder="Nombre"><br>
+            <label for="telefono">Teléfono</label><br>
+            <input class="txt" type="tel" name="telefono" id="telefono" maxlength="12" minlength="10" placeholder="5512345678"><br>
+            <label for="email">Correo Electrónico</label><br>
+            <input class="txt" type="email" placeholder="correo@correo.com"><br>
+            <label for="pastel">¿Cuántos pastéles desea ordenar?</label><br>
+            <input class="txt" type="number" name="pastel" id="pastel" min="1" max="10"><br>
+            <label for="tamaño" class="tamaño-group">Selecciona el tamaño de tu pastel</label><br>
+            <select class="txt" id="tamaño">
+                <option value="personal">Personal   $70</option>
+                <option value="pequeño">Pequeño $200</option>
+                <option value="mediano">Mediano $500</option>
+                <option value="grande">Grande   $900</option>
+                <option value="familiar">Familiar   $1,500</option>
+            </select><br>
+            <div class="checkBox">
+            <label for="sabores">Selecciona los sabores de tu preferencia</label><br><br>
+                <label for="vainilla"><input type="checkbox" name="vainilla" id="vainilla"> Vainilla</label><br>
+                <label for="chocolateS"><input type="checkbox" name="chocolateS" id="chocolateS"> Chocolate Suizo</label><br>
+                <label for="chocolateB"><input type="checkbox" name="chocolateB" id="chocolateB"> Chocolate Blanco</label><br>
+                <label for="matcha"><input type="checkbox" name="matcha" id="matcha"> Matcha</label><br>
+                <label for="imposible"><input type="checkbox" name="imposible" id="imposible"> Imposible</label><br>
+                <label for="redVelvet"><input type="checkbox" name="redVelvet" id="redVelvet"> Red Velvet</label><br>
+                <label for="tiramisu"><input type="checkbox" name="tiramisu" id="tiramisu"> Tiramisú</label><br>
+                <label for="turron"><input type="checkbox" name="turron" id="turron"> Turrón</label><br>
+                <label for="pistache"><input type="checkbox" name="pistache" id="pistache"> Pistáche</label><br><br>
+            <label for="adornos">Selecciona los adornos para personalizar tu pastel</label><br><br>
+                <label for=""><input type="checkbox" name="durazno" id="durazno"> Durázno</label><br>
+                <label for=""><input type="checkbox" name="fresa" id="fresa"> Fresa</label><br>
+                <label for=""><input type="checkbox" name="kiwi" id="kiwi"> Kiwi</label><br>
+                <label for=""><input type="checkbox" name="amarena" id="amarena"> Amaréna</label><br>
+                <label for=""><input type="checkbox" name="blueBerry" id="blueBerry"> Blue berry</label><br>
+                <label for=""><input type="checkbox" name="arandano" id="arandano"> Arándano</label><br>
+                <label for=""><input type="checkbox" name="frambuesa" id="frambuesa"> Frambuésa</label><br>
+                <label for=""><input type="checkbox" name="zarzamora" id="zarzamora"> Zarzamora</label><br>
+                <label for=""><input type="checkbox" name="nuez" id="nuez"> Nuéz</label><br>
+                <label for=""><input type="checkbox" name="almendra" id="almendra"> Alméndra</label><br>
+                <label for=""><input type="checkbox" name="oreo" id="oreo"> Oreo</label><br><br>
+            </div>
+            <center><input type="reset" class="restart" value="Restablecer">
+            <a href="#"><input type="submit" class="submit" value="Enviar"></a></center>
+        </form><!-- form -->
+    </div>
+    
+</body>
+</html>
