@@ -23,8 +23,7 @@ h1{
     background: linear-gradient(to right, #B06AB3, #4568DC); 
 }
 #navBar a{
-    padding: 1.5em 0 1.5em 9em;
-    
+    padding: 1.5em 0 1.5em 4em;
     text-align: right;
     font-size: x-large;
     font-weight: 500;
@@ -36,7 +35,7 @@ h1, h2, .container4{
 }
 h1, nav{
     font-family: 'Fredericka the Great', cursive;
-    font-size: 8em;
+    font-size: 4em;
 }
 #img1{
     padding: 4em 0 4em 0;
@@ -49,8 +48,8 @@ h1, nav{
     flex-direction: row;
     justify-content: space-evenly;
     border: 2px outset;
-    margin: 4em 7em 7em 7em;
-    padding: 10em 0 60em 0 ;
+    margin: 4em 1em 7em 1em;
+    padding: 3em 0 54em 0 ;
     border-radius: 3%;
     background: #4568DC;  
     background: -webkit-linear-gradient(to right, #B06AB3, #4568DC);  
@@ -80,15 +79,15 @@ h1, nav{
 .card1,.card2{
     justify-content: space-around;
     position: relative;
-    left: 33em;
-   margin: 0 6em 0 6em;
+    left: 26em;
+   margin: 0 3em 0 3em;
 }
 .card3,.card4{
     position: relative;
-    top: 35em;
-    right: 31em;
+    top: 33em;
+    right: 26em;
     justify-content: space-around;
-    margin: 0 6em 0 6em;
+    margin: 0 3em 0 3em;
 }
 .container1 h2{
     font-size: xx-large;
@@ -108,7 +107,7 @@ h1, nav{
     font-size: xx-large;
    border: 2px outset;
    margin: 0 2em 0 2em;
-   padding: 2em 0 2em 0;
+   padding: 2em 0 1.70em 0;
    border-radius: 3%;
     background-image: url("/img/backgroundCake.png");
     font-weight: 600;
@@ -125,7 +124,7 @@ h1, nav{
     font-size: xxx-large;
 }
 #pedido{
-    margin:2em 2em 2em 22em;
+    margin:2em 2em 2em 15em;
     font-size: xx-large;
     border-radius: 2%;
     padding: 0.5em 1em 0.5em 1em;
@@ -134,9 +133,9 @@ h1, nav{
 }
 #pedidoForm{
     border: 2px outset;
-    margin: 3em 10em 3em 10em;
+    margin: 3em 8em 3em 10em;
     border-radius: 2%;
-    padding: 2em 8em 4em 8em;
+    padding: 2em 1em 4em 3em;
     background: #20002c; 
     background: -webkit-linear-gradient(to right, #cbb4d4, #20002c);  
     background: linear-gradient(to right, #cbb4d4, #20002c); 
@@ -152,8 +151,8 @@ h1, nav{
    margin: 0 4em;
 }
 .txt{
-    padding-right: 25em;
-    font-size: medium;
+    padding-right: 20em;
+    font-size: small;
     margin: 1em;
 }
 .checkBox input{
